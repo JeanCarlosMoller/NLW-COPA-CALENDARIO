@@ -4,6 +4,7 @@
 
 🚀 Projeto construído no evento da Rocketseat 🚀
 
+[Clique aqui para acessar](https://jeancarlosmoller.github.io/NLW-COPA-CALENDARIO/)
 
 ## 🛠️ Tecnologias
 - JAVASCRIPT
