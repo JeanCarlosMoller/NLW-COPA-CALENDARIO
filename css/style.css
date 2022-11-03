@@ -8,21 +8,21 @@
   --card-title-border-color: #746615 ;
   --card-color-primary: #f7dd43;
   --card-bg-color: #1d1c19;
-  --bg: url(/assets/bg-yellow.svg)
+  --bg: url(./assets/bg-yellow.svg)
 }
 
 body.blue {
   --card-title-border-color: #338AF3 ;
   --card-color-primary: #338AF3;
   --card-bg-color: #202024;
-  --bg: url(/assets/bg-blue.svg)
+  --bg: url(./assets/bg-blue.svg)
 }
 
 body.green {
   --card-title-border-color: #047C3F;
   --card-color-primary: #047C3F;
   --card-bg-color: #1A1F1B;
-  --bg: url(/assets/bg-green.svg)
+  --bg: url(./assets/bg-green.svg)
 }
 
 ul {
@@ -30,13 +30,11 @@ ul {
 }
 
 body {
-  /*background-color: #121214;
+  background-color: #121214;
   background-image: var(--bg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;*/
-
-  background: #121214 var(--bg) no-repeat top center/cover ;
+  background-size: cover;
 
 }
 
@@ -86,7 +84,6 @@ header {
   margin-bottom: 53px;
 
   color: #f7dd43;
-  
 }
 
 .bandeira-players {
@@ -105,7 +102,6 @@ header {
   color: #ffffff;
   font-size: 16px;
   text-transform: uppercase;
-
 }
 
 .card ul {
@@ -120,16 +116,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .group {
   padding-top: 24px;
   border-top: 1px solid #323238;
-  
 }
-
-
 
 .card ul li strong {
   font-weight: 900;
@@ -155,16 +147,6 @@ header {
   opacity: 0;
   animation: appear .2s forwards; 
 }
-
-/*
-.card:nth-child(2) {
-  animation-delay: .2s;
-}
-
-.card:nth-child(3) {
-  animation-delay: .4s;
-}
-*/
 
 @keyframes appear {
   0% {
